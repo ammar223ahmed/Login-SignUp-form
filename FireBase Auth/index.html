@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBase Auth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="auth_container">
+        <center>
+        <div class="main_container_one" id="signup_section">
+            <div class="parent_container">
+                <div>
+                    <h3 style="text-align: center;" class="top-heading">SIGN UP</h3>
+                    <div class="email-pass-parent">
+                       <input type="email" placeholder="Enter Your Email" id="signUp_email">
+                       <br>
+                       <input type="password" placeholder="Enter Your password" id="signUp_password">
+                    </div>
+                    <br>
+                    <center>
+                    <button id="signUp_button"
+                    class="signup-btn">Sign Up</button>
+                    <p class="para">Dont have an acount? <span class="Sign_inClick">Sign in</span></p>
+                    </center>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="main_container_one" id="signin_section">
+            <div class="parent_container">
+                <h3  class="top-heading" style="text-align: center;">SIGN IN</h3>
+                <div class="email-pass-parent">
+                   <input type="email" placeholder="Enter Your Email" id="signIn_email">
+                   <br>
+                   <input type="password" placeholder="Enter Your password" id="signIn_password">
+                </div>
+                <br>
+                <center>
+                <button id="signIn_button" class="signup-btn">Sign In</button>
+                <p class="para">Dont have an acount? <span class="Sign_upClick">Sign up</span></p>
+                </center>
+
+            </div>
+        </div>
+    </center>
+ <!-- <div>
+<h3 style="text-align: center;">Create Account</h3>
+<div style="display: flex; justify-content: center;">
+   <input type="email" placeholder="Enter Your Email" id="signUp_email">
+   <input type="password" placeholder="Enter Your password" id="signUp_password">
+</div>
+<br>
+<center>
+<button id="signUp_button">Create Account</button>
+</center>
+</div>  -->
+ <!-- <div> 
+    <h3 style="text-align: center;">Sign in to your Account</h3>
+    <div style="display: flex; justify-content: center;">
+       <input type="email" placeholder="Enter Your Email" id="signIn_email">
+       <input type="password" placeholder="Enter Your password" id="signIn_password">
+    </div>
+    <br>
+    <center>
+    <button id="signIn_button">Sign In</button>
+    </center>
+</div>  -->
+</div>
+
+   <div id="user_container" class="useres_container">
+       <br><br><br><br><br> 
+    <div class="userInterface">
+      <div class="user_child_one">
+        <h1 class="heading_user_child">WELCOME TO YOU</h1>
+        <h1 id="user_email"></h1>
+        <p class="user_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. ipsum, sed vero assumenda perferendis. Accusantium perferendis repudiandae assumenda at officia?</p>
+        <button id="logout_btn">Logout</button>
+      </div>
+      <div class="user_child_two">
+        <h1 class="user_child_two_heading">WELCOME</h1>
+       <p class="user_child_two_para"> Thanks for visiting our website</p>
+      </div>
+
+    </div>
+   </div>
+<script src="app.js" type="module"></script>
+</body>
+</html>
